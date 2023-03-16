@@ -591,7 +591,7 @@ section {
 }
 
 .clients img {
-  max-width: 45%;
+  max-width: 80%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
@@ -1054,66 +1054,65 @@ section {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
-}
-
-.portfolio-details .portfolio-details-slider img {
-  width: 100%;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+  }
+  
+  .portfolio-details .portfolio-details-slider img {
+  width: 75%; /* Change this value to adjust the image size */
+  }
+  
+  .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  }
+  
+  .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
   border: 1px solid #47b2e4;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  }
+  
+  .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #47b2e4;
-}
-
-.portfolio-details .portfolio-info {
+  }
+  
+  .portfolio-details .portfolio-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(55, 81, 126, 0.08);
-}
-
-.portfolio-details .portfolio-info h3 {
+  }
+  
+  .portfolio-details .portfolio-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
-}
-
-.portfolio-details .portfolio-info ul {
+  }
+  
+  .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
-}
-
-.portfolio-details .portfolio-info ul li+li {
+  }
+  
+  .portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
-}
-
-.portfolio-details .portfolio-description {
+  }
+  
+  .portfolio-details .portfolio-description {
   padding-top: 30px;
-}
-
-.portfolio-details .portfolio-description h2 {
+  }
+  
+  .portfolio-details .portfolio-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
-}
-
-.portfolio-details .portfolio-description p {
+  }
+  
+  .portfolio-details .portfolio-description p {
   padding: 0;
-}
-
+  }
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
